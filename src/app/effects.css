@@ -1,0 +1,80 @@
+.color-animation {
+  background: linear-gradient(215deg, #8fd328, #2892d3, #a43ec5);
+  background-size: 300% 300%;
+
+  -webkit-animation: AnimationName 20s ease infinite;
+  -moz-animation: AnimationName 20s ease infinite;
+  -o-animation: AnimationName 20s ease infinite;
+  animation: AnimationName 20s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:92% 0%}
+  50%{background-position:9% 100%}
+  100%{background-position:92% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:92% 0%}
+  50%{background-position:9% 100%}
+  100%{background-position:92% 0%}
+}
+@-o-keyframes AnimationName {
+  0%{background-position:92% 0%}
+  50%{background-position:9% 100%}
+  100%{background-position:92% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:92% 0%}
+  50%{background-position:9% 100%}
+  100%{background-position:92% 0%}
+}
+
+.bg-animation {
+  background: linear-gradient(324deg, #e08614, #14e017, #14a4e0, #e014b9);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 0%}
+  50%{background-position:100% 100%}
+  100%{background-position:0% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 0%}
+  50%{background-position:100% 100%}
+  100%{background-position:0% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 0%}
+  50%{background-position:100% 100%}
+  100%{background-position:0% 0%}
+}
+
+.golden-animation {
+  background: linear-gradient(224deg, #f4f489, #c0a529, #423008, #c0a529, #f4f489);
+  background-size: 300% 300%;
+
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:92% 0%}
+  50%{background-position:9% 100%}
+  100%{background-position:92% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:92% 0%}
+  50%{background-position:9% 100%}
+  100%{background-position:92% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:92% 0%}
+  50%{background-position:9% 100%}
+  100%{background-position:92% 0%}
+}
