@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Navbar from "../nav/Navbar";
 
 export default function Header() {
@@ -7,10 +8,12 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed flex h-[3.5rem] leading-[3.5rem] px-4 my-3 justify-between w-screen">
-        <h1 className="text-[3.5rem] font-bold text-transparent text-center z-20 golden-animation bg-clip-text">
-          AAD
-        </h1>
+      <header className="flex fixed px-4 my-3 justify-between w-screen align-middle h-[5rem]">
+        <Link href="/">
+          <h1 className="text-[5rem] flex font-bold text-transparent text-center z-20 golden-animation bg-clip-text align-middle items-center h-[100%]">
+            AAD
+          </h1>
+        </Link>
         <Navbar>
         </Navbar>
       </header>

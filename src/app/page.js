@@ -17,27 +17,27 @@ export default function Home() {
       <SectionGrid className="h-screen content-center bg-animation text-gray-900">
         <div className="col-span-12 md:col-span-12 lg:col-span-8 md:col-start-2 lg:col-start-2 px-4 py-3">
           <FadeMotion delay={0.3}>
-            <h2 className="text-[3rem] md:text-[3.5rem] font-bold">
+            <h2 className="text-[1.8rem] md:text-[3.5rem] font-bold">
               Hi, I am Albert Arques
             </h2>
           </FadeMotion>
           <FadeMotion delay={0.6}>
-            <p className="text-[2rem] md:text-[2.5rem]">
+            <p className="text-[1.6rem] md:text-[2.5rem]">
               A full stack developer and designer.
             </p>
           </FadeMotion>
-          <Box className={" col-span-full  text-gray-900"}>
+          <Box className={" col-span-full text-gray-900"}>
             <FadeMotion delay={1.5}>
-              <div className="flex flex-row px-0 flex-wrap">
-                <SiJavascript size={"3rem"} title={"Javascript"} className="icon flex-none w-[3rem] mr-3 md:mr-6 mt-4 " />
-                <SiFigma size={"3rem"} title={"Figma"} className="icon flex-none w-[3rem] mr-3 md:mr-6 mt-4" />
-                <BiLogoJava size={"3rem"} title={"Java"} className="icon flex-none w-[3rem] mr-3 md:mr-6 mt-4" />
-                <SiHtml5 size={"3rem"} title={"HTML5"} className="icon flex-none w-[3rem] mr-3 md:mr-6 mt-4" />
-                <SiReact size={"3rem"} title={"React Js"} className="icon flex-none w-[3rem] mr-3 md:mr-6 mt-4" />
-                <SiMysql size={"3rem"} title={"MySQL"} className="icon flex-none w-[3rem] mr-3 md:mr-6 mt-4" />
-                <SiPhp size={"3rem"} title={"PHP"} className="icon first-letter:flex-none w-[3rem] mr-3 md:mr-6 mt-4" />
-                <SiLaravel size={"3rem"} title={"Laravel"} className="icon flex-none w-[3rem] mr-3 md:mr-6 mt-4" />
-                <SiNextdotjs size={"3rem"} title={"Next Js"} className="icon flex-none w-[3rem] mr-3 md:mr-6 mt-4" />
+              <div className="flex flex-row p-none flex-wrap">
+                <SiJavascript title={"Javascript"} className="icon flex-none w-[2rem] md:w-[4rem] mr-3 md:mr-6 mt-4 " />
+                <SiFigma title={"Figma"} className="icon flex-none w-[2rem] md:w-[4rem] mr-3 md:mr-6 mt-4" />
+                <BiLogoJava title={"Java"} className="icon flex-none w-[2rem] md:w-[4rem] mr-3 md:mr-6 mt-4" />
+                <SiHtml5 title={"HTML5"} className="icon flex-none w-[2rem] md:w-[4rem] mr-3 md:mr-6 mt-4" />
+                <SiReact title={"React Js"} className="icon flex-none w-[2rem] md:w-[4rem] mr-3 md:mr-6 mt-4" />
+                <SiMysql title={"MySQL"} className="icon flex-none w-[2rem] md:w-[4rem] mr-3 md:mr-6 mt-4" />
+                <SiPhp title={"PHP"} className="icon first-letter:flex-none w-[2rem] md:w-[4rem] mr-3 md:mr-6 mt-4" />
+                <SiLaravel title={"Laravel"} className="icon flex-none w-[2rem] md:w-[4rem] mr-3 md:mr-6 mt-4" />
+                <SiNextdotjs title={"Next Js"} className="icon flex-none w-[2rem] md:w-[4rem] mr-3 md:mr-6 mt-4" />
               </div>
             </FadeMotion>
           </Box>
