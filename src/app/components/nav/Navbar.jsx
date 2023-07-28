@@ -8,6 +8,7 @@ export default function Navbar({children}) {
     ].map(([title, url]) => (
       <a
         href={url}
+        key={title}
         className="rounded-lg px-3 py-2 text-slate-700 font-bold golden-animation hover:text-slate-900 text-center"
       >
         {title}
