@@ -1,5 +1,5 @@
 
-import Header from './components/header/Header'
+import Header from './components/parts/header/Header'
 import './globals.css'
 import { Open_Sans } from 'next/font/google'
 

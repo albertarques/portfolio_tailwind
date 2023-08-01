@@ -1,21 +1,22 @@
-import Image from "next/image";
-import SectionGrid, { Contents } from "./components/section/SectionGrid";
-import { FadeMotion, ScrollMotion, ScaleMotion } from "./components/motion/Motion";
-import { Box } from "./components/columns/Box";
+// import Image from "next/image";
+import SectionGrid, { Contents } from "./components/elements/section/SectionGrid";
+import { FadeMotion, ScrollMotion, ScaleMotion } from "./components/elements/motion/Motion";
+import { Box } from "./components/elements/columns/Box";
 
 import Link from "next/link";
 
-import { H1, H2 } from "./components/typo/Headers";
+import { H1, H2 } from "./components/elements/typo/Headers";
 
 import { BiLogoJava } from "react-icons/bi";
 import { SiJavascript, SiMysql, SiLaravel, SiFigma, SiHtml5, SiReact, SiNextdotjs, SiPhp, SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
 
+import { FilledBtn, OutlinedBtn } from "./components/elements/buttons/Buttons";
 export default function Home() {
 
   return (
     <main className="flex flex-col">
       <SectionGrid className="h-screen content-center bg-animation text-gray-900">
-        <div className="col-span-12 md:col-span-12 lg:col-span-5 md:col-start-2 lg:col-start-2 px-4 py-3">
+        <div className="col-span-12 md:col-span-12 lg:col-span-6 md:col-start-1 lg:col-start-2 px-4 py-3">
           <FadeMotion delay={0.3}>
             <h2 className="text-[1.8rem] md:text-[3.5rem] font-bold">
               Hi, I am Albert Arques
@@ -29,17 +30,17 @@ export default function Home() {
           <Box className={"col-span-full text-gray-900"}>
             <FadeMotion delay={1.5}>
               <div className="flex flex-row p-none flex-wrap">
-                <SiJavascript title={"Javascript"} className="icon flex-none w-[2rem] md:w-[4rem] mr-3 md:mr-6 mt-4 " />
-                <SiFigma title={"Figma"} className="icon flex-none w-[2rem] md:w-[4rem] mr-3 md:mr-6 mt-4" />
-                <BiLogoJava title={"Java"} className="icon flex-none w-[2rem] md:w-[4rem] mr-3 md:mr-6 mt-4" />
-                <SiHtml5 title={"HTML5"} className="icon flex-none w-[2rem] md:w-[4rem] mr-3 md:mr-6 mt-4" />
-                <SiReact title={"React Js"} className="icon flex-none w-[2rem] md:w-[4rem] mr-3 md:mr-6 mt-4" />
-                <SiMysql title={"MySQL"} className="icon flex-none w-[2rem] md:w-[4rem] mr-3 md:mr-6 mt-4" />
-                <SiPhp title={"PHP"} className="icon first-letter:flex-none w-[2rem] md:w-[4rem] mr-3 md:mr-6 mt-4" />
-                <SiLaravel title={"Laravel"} className="icon flex-none w-[2rem] md:w-[4rem] mr-3 md:mr-6 mt-4" />
-                <SiNextdotjs title={"Next Js"} className="icon flex-none w-[2rem] md:w-[4rem] mr-3 md:mr-6 mt-4" />
-                <SiAdobephotoshop title={"Photoshop"} className="icon flex-none w-[2rem] md:w-[4rem] mr-3 md:mr-6 mt-4" />
-                <SiAdobeillustrator title={"Illustrator"} className="icon flex-none w-[2rem] md:w-[4rem] mr-3 md:mr-6 mt-4" />
+                <SiJavascript title={"Javascript"} className="icon flex-none w-[2rem] md:w-[3rem] mr-3 md:mr-6 mt-4 " />
+                <SiFigma title={"Figma"} className="icon flex-none w-[2rem] md:w-[3rem] mr-3 md:mr-6 mt-4" />
+                <BiLogoJava title={"Java"} className="icon flex-none w-[2rem] md:w-[3rem] mr-3 md:mr-6 mt-4" />
+                <SiHtml5 title={"HTML5"} className="icon flex-none w-[2rem] md:w-[3rem] mr-3 md:mr-6 mt-4" />
+                <SiReact title={"React Js"} className="icon flex-none w-[2rem] md:w-[3rem] mr-3 md:mr-6 mt-4" />
+                <SiMysql title={"MySQL"} className="icon flex-none w-[2rem] md:w-[3rem] mr-3 md:mr-6 mt-4" />
+                <SiPhp title={"PHP"} className="icon first-letter:flex-none w-[2rem] md:w-[3rem] mr-3 md:mr-6 mt-4" />
+                <SiLaravel title={"Laravel"} className="icon flex-none w-[2rem] md:w-[3rem] mr-3 md:mr-6 mt-4" />
+                <SiNextdotjs title={"Next Js"} className="icon flex-none w-[2rem] md:w-[3rem] mr-3 md:mr-6 mt-4" />
+                <SiAdobephotoshop title={"Photoshop"} className="icon flex-none w-[2rem] md:w-[3rem] mr-3 md:mr-6 mt-4" />
+                <SiAdobeillustrator title={"Illustrator"} className="icon flex-none w-[2rem] md:w-[3rem] mr-3 md:mr-6 mt-4" />
               </div>
             </FadeMotion>
           </Box>
